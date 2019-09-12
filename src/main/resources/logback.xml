@@ -13,8 +13,8 @@
     </appender>
 
     <appender name="GELF" class="de.siegmar.logbackgelf.GelfUdpAppender">
-        <graylogHost>172.26.30.27</graylogHost>
-        <graylogPort>9000</graylogPort>
+        <graylogHost>localhost</graylogHost>
+        <graylogPort>12201</graylogPort>
     </appender>
 
     <!-- Console output log level -->
